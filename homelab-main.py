@@ -20,7 +20,7 @@ License:
 """
 
 import asyncio
-from bleak import AdvertisementData, BLEDevice, BleakScanner
+from bleak import AdvertisementData, BLEDevice, BleakScanner # type: ignore
 from datetime import datetime
 import json
 import os
