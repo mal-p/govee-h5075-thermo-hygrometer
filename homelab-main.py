@@ -154,7 +154,7 @@ class HomelabAPIClient:
             for device in devices:
                 try:
                     detail_response = requests.get(
-                        f"{self.base_url}/device/{device['id']}",
+                        f"{self.base_url}/devices/{device['id']}",
                         headers = self.headers,
                         timeout = self.timeout_sec
                     )
